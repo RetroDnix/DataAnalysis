@@ -84,6 +84,9 @@ if __name__ == "__main__":
     try:
         print("Generating output...")
         res_num = 0
+        TarDir = os.path.dirname(TarPath)
+        if not os.path.exists(TarDir):
+            os.makedirs(TarDir)
         with open(TarPath, "w", encoding="utf-8") as foutput:
             for resultid in results:
                 if resultid != -1:
