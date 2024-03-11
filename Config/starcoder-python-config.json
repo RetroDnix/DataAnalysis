@@ -1,0 +1,12 @@
+{
+    "SrcPath":"./test_dataset/starcoder/starcoder-python.jsonl",
+    "TarPath":"./Result/starcoder-python-result.json",
+    "CachePath":"./Temp/starcoder/py/",
+    "FileName":"PyCode%s.py",
+    "Executable":"pylint",
+    "Args":[
+        "--output-format=parseable",
+        "--rcfile=pylint.conf",
+        "--disable=E0401,E0402,E0602"
+    ]
+}

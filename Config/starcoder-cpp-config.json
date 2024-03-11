@@ -1,0 +1,10 @@
+{
+    "SrcPath":"./test_dataset/starcoder/starcoder-cpp.jsonl",
+    "TarPath":"./Result/starcoder-cpp-result.json",
+    "CachePath":"./Temp/starcoder/cpp/",
+    "FileName":"CppCode%d.cpp",
+    "Executable":"cppcheck",
+    "Args":[
+        "--quiet"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "SrcPath":"./test_dataset/the-stack-dedup/the-stack-dedup-python.jsonl",
+    "TarPath":"./Result/the-stack-dedup-python-result.jsonl",
+    "CachePath":"./Temp/thestack/py/",
+    "FileName":"PyCode%s.py",
+    "Executable":"pylint",
+    "Args":[
+        "--output-format=parseable",
+        "--rcfile=pylint.conf",
+        "--disable=E0401,E0402,E0602"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "SrcPath":"./test_dataset/the-stack-dedup/the-stack-dedup-cpp.jsonl",
+    "TarPath":"./Result/the-stack-dedup-cpp-result.json",
+    "CachePath":"./Temp/thestack/cpp/",
+    "FileName":"CppCode%d.cpp",
+    "Executable":"cppcheck",
+    "Args":[
+        "--quiet"
+    ]
+}
